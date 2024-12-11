@@ -1,8 +1,16 @@
+/*
+John Poirier and Grant Floyd
+Programmable Guitar Pedal
+Microcontrollers Lab X
+Task: Audio Passthrough without ADC or DAC (Arduino and Op-Amp circuit only)
+*/
+
 const int inputPin = A0;  // Analog input from guitar
 const int outputPin = 9; // PWM output to amp
 
 void setup() {
-    pinMode(outputPin, OUTPUT); //Set pin mode
+    pinMode(outputPin, OUTPUT); 
+    pinMode(inputPin, INPUT_PULLUP);
 }
 
 void loop() {
