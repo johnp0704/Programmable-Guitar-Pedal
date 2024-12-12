@@ -6,7 +6,7 @@ Task: Loop Pedal Concept Code (Untested, requires SD Card)
 */
 
 #include <SD.h> // Library for SD Card
-#include <SPI.h> // Librayr for SPI Communication
+#include <SPI.h> // Library for SPI Communication
 
 // Pin Definitions
 const int recordButton = 2;   // Start/stop recording and playback
