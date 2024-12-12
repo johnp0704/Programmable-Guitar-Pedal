@@ -24,7 +24,7 @@ Various Resistors\
 Code to test the functionality and communication of the ADC and DAC with the Arduino
 
 ### Audio_Passthrough_V1
-Code to directly passthrough audio from the guitar through the arduino and to the amp without affecting the signal. Does not utilize the ADC and DAC.
+Code to directly passthrough audio from the guitar through the arduino and to the amp without affecting the signal. Does not utilize the ADC and DAC. Used for testing the processing circuit before implementing the ADC and DAC.
 
 ### Audio_Passthrough_V2
 Code to directly passthrough audio from the guitar through the arduino and to the amp without affecting the signal. Utilizes the ADC and DAC.
