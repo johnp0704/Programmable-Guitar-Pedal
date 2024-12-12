@@ -41,5 +41,5 @@ Code that records the input from the guitar, and stores that recording on an SD 
 ### Input_Output_Processing_Circuits_LTSpice
 LTspice file containing the schematics of the input and output processing circuits used for this project. 
 
-
+![Input Processing Circuit](https://github.com/johnp0704/Programmable-Guitar-Pedal/blob/main/Images/Input_Processing_Schematic.png)
 
