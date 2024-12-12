@@ -8,16 +8,17 @@ This project creates a guitar pedal using an Arduino UNO that can be programmed 
 an ADC and DAC. This project posed significant challenges, as the output was unable to match the frequency of the input, causing significant unwanted distortion in the output.
 
 ## Components
-1x Arduino Uno\
-1x ADS1115 ADC\
-1x MCP4725 DAC\
-2x 1uF Capacitor\
-Various Resistors\
-5x AD741 Operational Amplifier\
-2x 9V Batery\
-2x Zener Diode\
-1x Guitar\
-1x Guitar Amp
+* 1x Arduino Uno
+* 1x ADS1115 ADC
+* 1x MCP4725 DAC
+* 2x 1uF Capacitor
+* Various Resistors
+* 5x AD741 Operational
+* Amplifier
+* 2x 9V Batery
+* 2x Zener Diode
+* 1x Guitar
+* 1x Guitar Amp
 
 ## Contents
 ### ADC_DAC_Test
