@@ -17,7 +17,7 @@ Various Resistors\
 2x 9V Batery\
 2x Zener Diode\
 1x Guitar\
-1x Guitar Amp\
+1x Guitar Amp
 
 ## Contents
 ### ADC_DAC_Test
