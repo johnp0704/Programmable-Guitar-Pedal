@@ -13,6 +13,7 @@ Task: Distortion Pedal
 Adafruit_ADS1115 adc;
 Adafruit_MCP4725 dac;
 
+const int constraint_value = 2500;
 void setup() {
     Wire.begin();
     
@@ -31,6 +32,6 @@ void setup() {
 void loop() {
     int16_t adcValue = adc.readADC_SingleEnded(0); // Read guitar input from ADC
     uint16_t dacValue = map(adcValue, 0, 32767, 0, 4095); // Map from ADC ranges to DAC ranges
-    dacValue = constrain(dacValue, 0, 2500); // Limit outuput significantly to get clipping
+    dacValue = constrain(dacValue, 0, constraint_value); // Limit outuput significantly to get clipping
     dac.setVoltage(dacValue, false); // Set output
 }
