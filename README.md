@@ -19,5 +19,27 @@ Various Resistors\
 1x Guitar\
 1x Guitar Amp\
 
+## Contents
+### ADC_DAC_Test
+Code to test the functionality and communication of the ADC and DAC with the Arduino
+
+### Audio_Passthrough_V1
+Code to directly passthrough audio from the guitar through the arduino and to the amp without affecting the signal. Does not utilize the ADC and DAC.
+
+### Audio_Passthrough_V2
+Code to directly passthrough audio from the guitar through the arduino and to the amp without affecting the signal. Utilizes the ADC and DAC.
+
+### Delay_Pedal_V1
+Code to cause a delay of the input signal from the guitar to the output signal to the amp.
+
+### Distortion_Pedal_V1
+Code that causes clipping of the input signal from the guitar to cause a distortion effect at the output to the amp.
+
+### Loop_Pedal_V1
+Code that records the input from the guitar, and stores that recording on an SD card. The stored audio file can then be played back in a loop. 
+
+### Input_Output_Processing_Circuits_LTSpice
+LTspice file containing the schematics of the input and output processing circuits used for this project. 
+
 
 
