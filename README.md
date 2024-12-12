@@ -43,3 +43,5 @@ LTspice file containing the schematics of the input and output processing circui
 
 ![Input Processing Circuit](https://github.com/johnp0704/Programmable-Guitar-Pedal/blob/main/Images/Input_Processing_Schematic.png)
 
+
+![Output Processing Circuit](https://github.com/johnp0704/Programmable-Guitar-Pedal/blob/main/Images/Output_Processing_Schematic.png)
