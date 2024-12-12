@@ -17,6 +17,7 @@ an ADC and DAC. This project posed significant challenges, as the output was una
 * Amplifier
 * 2x 9V Batery
 * 2x Zener Diode
+* 2x 1/4" Female Audio Jacks
 * 1x Guitar
 * 1x Guitar Amp
 
